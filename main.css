@@ -1,0 +1,82 @@
+body{
+    background-color: #f8f8f9;
+    font-family:  Arial, sans-serif;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+.heads{
+ text-align: center;
+}
+.div1 {
+    width: 6%;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 5px auto;
+    background-color: black;
+    color: white;
+    
+
+}
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#content {
+    float: left;
+    position: relative;
+    left: -50%;
+    }
+
+input[type=text],[type = password]{
+    width: 100%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+select {
+    width: 14%;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+
+}
+button[type=submit] {
+    width: 100%;
+    background-color:darkcyan;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.contact{
+    display: flex;
+}
+
+.container {
+display: flex;
+flex-wrap: wrap;
+}
+
+.fname{
+    margin-right: 5px;
+}
+
+a{
+    color: darkcyan;
+}
+.btn{
+ text-align: left;
+ font-size: 100%;
+}
