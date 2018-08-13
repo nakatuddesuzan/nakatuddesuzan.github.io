@@ -4,6 +4,15 @@ table {
     width: 100%;
 }
 
+.del-btn{
+    width: 20%;
+    padding: 2px;
+}
+.accept-btn{
+    width: 10%;
+    padding: 2px;
+}
+
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
@@ -36,7 +45,7 @@ a{
 .view-content{
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid blue;
-    background-color: #dddddd;
+    background-color: #f8f8f9;
     width: 80%; 
 }
 
@@ -62,5 +71,31 @@ a{
 @media screen and (max-width: 600px) {
     textarea{
         width: 90%;
+    }
+    .del-btn{
+        width: 30%;
+    }
+    .accept-btn{
+        width: 20%;
+    }
+    .topnav input[type=text]{
+        width: 50%;
+        text-align: center;
+        font-size: 16px;
+        margin: unset ;
+        padding: 5px;
+        margin-top: unset;
+        margin-left: 20px;
+    }
+    .accept-btn{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: white;
+    }
+    #replies1{
+        background-color: #dddddd;
     }
 }
